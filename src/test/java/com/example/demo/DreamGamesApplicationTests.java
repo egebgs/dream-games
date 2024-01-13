@@ -1,13 +1,13 @@
 package com.example.demo;
-
-import org.junit.jupiter.api.Test;
+import com.dream.caseStudy.DreamGamesApplication;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.jupiter.api.Test;
 
-@SpringBootTest
-class DreamGamesApplicationTests {
+@SpringBootTest(classes = DreamGamesApplication.class)
+public class DreamGamesApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void yourTestMethod() {
+		// Your test logic here
 	}
-
 }
