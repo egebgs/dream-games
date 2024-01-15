@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dream-games-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dream-games
+  template:
+    metadata:
+      labels:
+        app: dream-games
+    spec:
+      containers:
+      - name: dream-games
+        image: egebgs/dream-games-case:latest
+        ports:
+        - containerPort: 8080
