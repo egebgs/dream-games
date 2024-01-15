@@ -12,8 +12,7 @@ RUN mvn -f /home/app/pom.xml clean package
 FROM openjdk:17-slim
 
 # Copy the built artifact from the build stage
-COPY --from=build /home/app/target/*.jar /usr/local/lib/app.jar cocroj-hepdon-razvY6
-
+COPY --from=build /home/app/target/*.jar /usr/local/lib/app.jar
 # Expose the port the application runs on
 EXPOSE 8080
 
