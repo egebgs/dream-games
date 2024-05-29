@@ -1,6 +1,6 @@
-package com.dream.caseStudy.repository;
+package com.dream.caseStudy.repositories;
 
-import com.example.myproject.model.User;
+import com.example.myproject.models.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
