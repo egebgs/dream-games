@@ -1,7 +1,7 @@
 package com.dream.caseStudy.controller;
 
-import com.dream.caseStudy.model.User;
-import com.dream.caseStudy.repository.UserRepository;
+import com.dream.caseStudy.models.User;
+import com.dream.caseStudy.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
