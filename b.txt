@@ -1,0 +1,4 @@
+To add a worker to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-1361r7l9bnpo491s8fyjgfc5vs5etyh4tqyg9ra122cqp7zk6t-e7q9zgqexgoxe1puguhfw1b16 192.168.0.97:2377
+
